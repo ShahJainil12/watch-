@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAINIL'S WEBSITE</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(img/photo-1613710774862-d813121e6d44.jfif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline block;
+            position: absolute;
+            left: 34px;
+            top: 4px;
+        }
+
+        .left img {
+            width: 130px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            background-image: url(img/Blur\ nav.jfif);
+            display: block;
+            width: 52%;
+            margin: 29px auto;
+        }
+
+        .mid {
+            position: fixed;
+            top: 8px;
+            right: 25%;
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            display: inline block;
+            position: absolute;
+            right: 34px;
+            top: 39px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            color: white;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px;
+            font-size: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: rgba(128, 128, 128, 0.431);
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 6px 14px;
+            border: 2px solid gray;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            background-image: url(img/dark\ bk.jpg);
+            border: 2px solid white;
+            margin: 200px 50px;
+            padding: 15px;
+            width: 40%;
+            border-radius: 40px;
+            margin-left: 380px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 360px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+
+        .container button {
+            display: block;
+            width: 360px;
+            margin: 30px auto;
+        }
+
+        .A12 {
+            position: absolute;
+            font-size: xx-large;
+            right: 34px;
+            top: 860px;
+            width: 40%;
+            text-align: justify;
+        }
+
+        .B12 {
+            left: 34px;
+            margin: 40px 40px;
+            width: 50%;
+            padding: 8px;
+            height: 400px;
+        }
+
+        .A13 {
+            position: absolute;
+            font-size: xx-large;
+            left: 34px;
+            top: 1330px;
+            width: 40%;
+            text-align: justify;
+        }
+
+        .B13 {
+            left: 34px;
+            margin: 40px 40px;
+            margin-left: 46%;
+            width: 50%;
+            padding: 8px;
+            height: 400px;
+        }
+
+        .A14 {
+            position: absolute;
+            font-size: xx-large;
+            right: 34px;
+            top: 1840px;
+            width: 40%;
+            text-align: justify;
+        }
+
+        .B14 {
+            left: 34px;
+            margin: 40px 40px;
+            width: 50%;
+            padding: 8px;
+            height: 400px;
+        }
+
+        .A15 {
+            position: absolute;
+            font-size: xx-large;
+            left: 34px;
+            top: 2330px;
+            width: 40%;
+            text-align: justify;
+        }
+
+        .B15 {
+            left: 34px;
+            margin: 40px 40px;
+            margin-left: 46%;
+            width: 50%;
+            padding: 8px;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo7.jpg" alt="">
+            <div>JAINIL's SONIC</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/Page1.html" target="_blank">About Us</a></li>
+                <li><a href="https://www.ethoswatches.com/?utm_source=google&utm_medium=cpc&utm_campaign=website_search&gclid=Cj0KCQiA0eOPBhCGARIsAFIwTs5NuasOq1Qt6QlU6WDG0C6paCFjIf7XZ4zuCyy05dBbSxJS_WsaVBQaAv7TEALw_wcB"
+                        target="_blank">Best Collections</a></li>
+                <li><a href="http://127.0.0.1:5500/call.html" target="_blank">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Buy Now</button>
+            <button class="btn">More Details</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Buy The Best Watches of World</h1>
+        <form action="noactio.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" id="" placeholder="Enter Your Email" required>
+            </div>
+            <div class="form-group">
+                <input type="number" name="" id="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter Your Number" maxlength="10" required>
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <div class="page1">
+        <div>
+            <p class="A12">
+                <strong>A Classic In Colour: Omega's Latest Constellation Globemaster Annual Calendar..<br>
+
+                    For watch aficionados, Omega might be synonymous with the legendary Speedmaster and Seamaster
+                    collections but the Swiss watch manufacturer have a lot more to of..
+                </strong>
+            </p>
+            <img src="img/N2.webp" alt="" class="B12">
+        </div>
+        <div class="page2">
+            <div>
+                <p class="A13">
+                    <strong>Oris's Pointer Date Calibre 403: Marking The Next Generation Of The Big Crown..<br>
+
+                        Like any serious watch manufacturer out there, Oris have had a strong aviation pillar of
+                        products—their Big Crown collection—which presents key elements of ...
+                    </strong>
+                </p>
+                <img src="img/N3.webp" alt="" class="B13">
+            </div>
+            <div class="page3">
+                <div>
+                    <p class="A14">
+                        <strong>A Retro-Modern Classic: Presenting The Girard-Perregaux Neo Bridges Timepieces..<br>
+
+                            With an illustrious legacy of over 230 years, Girard-Perregaux are among the few brands that
+                            are in the upper echelons of the watchmaking business. From having ..
+                        </strong>
+                    </p>
+                    <img src="img/N4.webp" alt="" class="B14">
+                </div>
+                <div class="page4">
+                    <div>
+                        <p class="A15">
+                            <strong>Experience The Thrill Of The Maurice Lacroix Aikon Special Edition Mahindra
+                                Racing..<br>
+
+                                The deeply rooted and intrinsic relationship between cars and watches is more than a
+                                century old. It all began during the 1890s when early race drivers started ..
+                            </strong>
+                        </p>
+                        <img src="img/N5.webp" alt="" class="B15">
+                    </div>
+</body>
+
+</html>
